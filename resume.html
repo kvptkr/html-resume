@@ -10,53 +10,63 @@
   <body lang="en">
     <section id="main">
       <header id="title">
-        <h1>KANAV PETKAR</h1>
-        <span class="subtitle">Aspiring Software Engineer</span>
+        <div class="headleft">
+          <h1>KANAV PETKAR</h1>
+          <span class="subtitle">Aspiring Software Engineer</span>
+        </div>
+        <div class="headright" id="contact">          
+          <ul>
+            <li><a href="https://kvptkr.github.io" class="placeurl"> kvptkr.github.io      </a><i class="fa fa-globe"></i></li>
+            <li><a href="https://github.com/kvptkr/" class="placeurl"> kvptkr                </a><i class="fa fa-github"></i></li>
+            <li><a href="mailto:krpetkar@uwaterloo.ca" class="placeurl"> krpetkar@uwaterloo.ca</a><i class="fa fa-envelope"></i></li>
+            <li><span>647.781.1815          </span><i class="fa fa-phone"></i></li>
+          </ul>
+        </div>
+        
       </header>
       <section class="main-block">
         <h2>
           <i class="fa fa-suitcase"></i> Experiences
         </h2>
         <section class="blocks">
-          <div class="date">
+          <!-- <div class="date">
             <span>Present</span><span>Sep '19</span>
-          </div>
+          </div> -->
           <div class="decorator">
           </div>
           <div class="details">
             <header>
-              <h3>Infrastructure Software Engineering Intern</h3>
+              <h3>Software Engineering Intern <span class="newdate">Fall '19</span></h3>
               <span class="place">Autonomic.ai</span>
               <span class="location">Palo Alto, CA</span>
               <br>
-              <span class="subdetail" ><em>Technologies Used:</em> Go, Kubernetes, Helm, Prometheus, Grafana, AWS, Bash, Git</span>
-              
+              <span class="subdetail" ><em>Tech Used:</em> Go, Kubernetes, AWS, Docker,  Helm, Prometheus, Grafana, Bash, CircleCI, Git</span>
             </header>
             <div>
               <ul>
-                <li>Shipped Kubernetes controller to automatically reload resources whenever a secret or configmap change was detected,  using <b>Go</b>
-                  and the <b>Kubernetes API</b> reducing service downtime by <em>30%</em></li>
-                  <li>Implemented <b>AWS load balancers</b> to allow secure communication with external telecom companies</li>
-                <li>Designed dynamic alerting system using <b>Helm</b>, <b>Prometheus</b> and <b>Alertmanager</b>
-                  decreasing mean incident response time by <em>80%</em></li>
+                <li>Shipped Kubernetes controller to automatically reload resources whenever a secret or configmap change was detected,  using <b>Go,</b>
+                 <b>Docker </b> and the <b>Kubernetes API</b> reducing service downtime by <em>30%</em></li>
+                  <li>Implemented <b>AWS RDS Instance</b> with <b>S3 bucket</b> for storage and backups to ensure fault tolerance</li>
+                <li>Designed dynamic alert routing system using <b>Helm</b>, <b>Prometheus</b> and <b>Alertmanager</b>
+                  reducing incident response time by <em>80%</em></li>
                 <li>Developed <b>Bash</b> scripts to install Kubernetes dependencies and tools used by <em>150 developers</em></li>
               </ul>
               </div>
           </div>
         </section>
         <section class="blocks">
-          <div class="date">
+          <!-- <div class="date">
             <span>Apr '19</span><span>Jan '19</span>
-          </div>
+          </div> -->
           <div class="decorator">
           </div>
           <div class="details">
             <header>
-              <h3>Software Engineering Intern</h3>
+              <h3>Software Engineering Intern <span class="newdate">Winter '19</span></h3>
               <span class="place">Toyota</span>
               <span class="location">Cambridge, ON</span>
               <br>
-              <span class="subdetail" ><em>Technologies Used:</em> .NET, Angular.js, SQL Server, Node.js, SVN</span>
+              <span class="subdetail" ><em>Tech Used:</em> .NET, Angular.js, SQL Server, Node.js, SVN</span>
             </header>
             <div>
               <ul>
@@ -69,27 +79,23 @@
                 <li>Wrote <em>REST API</em> in <b>Node.js</b> to provide new standard for vehicle lookup within Toyota
                   Canada
                 </li>
-                <li>
-                  Optimized delivery routing and traffic, saving more than <em>5400 hours of
-                    downtime annually</em>
-                </li>
               </ul>
             </div>
           </div>
         </section>
         <section class="blocks">
-          <div class="date">
+          <!-- <div class="date">
             <span>Aug '18</span><span>Apr '17</span>
-          </div>
+          </div> -->
           <div class="decorator">
           </div>
           <div class="details">
             <header>
-              <h3>Software Engineering Intern</h3>
+              <h3>Software Engineering Intern <span class="newdate">Summer '18</span></h3>
               <span class="place">Capgemini</span>
               <span class="location">Toronto, ON</span>
               <br>
-              <span class="subdetail" ><em>Technologies Used:</em> Java, Spring Boot, SQL Server, jUnit, Selenium</span>
+              <span class="subdetail" ><em>Tech Used:</em> Java, Spring Boot, SQL Server, jUnit, Selenium</span>
             </header>
             <div>
               <ul>
@@ -104,14 +110,14 @@
           </div>
         </section>
         <section class="blocks">
-          <div class="date">
+          <!-- <div class="date">
             <span>Present</span><span>2016</span>
-          </div>
+          </div> -->
           <div class="decorator">
           </div>
           <div class="details">
             <header>
-              <h3>Founder</h3>
+              <h3>Founder <span class="newdate">2017</span></h3>
               <span class="place">CodeNow Shipping</span>
               <span class="location">Toronto, ON</span>
               
@@ -119,7 +125,7 @@
             <div>
               <ul>
                 <li>Identified promising niche for e-commerce, made mockups and sent designs for production in China</li>
-                <li>Ran facebook, google and adwords campaigns <em>increasing sales by 50%</em></li>
+                <li>Ran Facebook, google and adwords campaigns <em>increasing sales by 50%</em></li>
                 <li>Featured in Huffington Post, sold more than <em>10,000 units</em> and grossed more than <em>$35,000 in profits</em></li>
               </ul>
               </div>
@@ -131,57 +137,77 @@
           <i class="fa fa-folder-open"></i> Selected Projects
         </h2>
         <section class="blocks">
-          <div class="date">
+          <!-- <div class="date"
+            for the old style of resume if you would like>
             <span>2020</span>
-          </div>
+          </div> -->
           <div class="decorator">
           </div>
           <div class="details">
             <header>
-              <h3>GoCal CLI</h3>
+              <h3>GoCal CLI <span class="newdate">2020</span></h3>
               <a href="https://github.com/kvptkr/gocal-cli" class="place placeurl">Open-Source Google Calendar CLI written in Go</a>
             </header>
             <div>
               <ul>
-                <li>Developed Google Calendar CLI using <b>Go, Cobra</b> and <b>Google Calendar CLI</b>
-                  <li>Identified potential opportunity for lightweight command to quickly check upcoming engagements and subsequently built it</li>
+                <li>Developed Google Calendar CLI using <b>Go, Cobra, Google OAuth API,</b> and <b>Google Calendar CLI</b>
+                <li>Identified potential opportunity for lightweight command to quickly check upcoming engagements</li>
               </ul>
             </div>
           </div>
         </section>
         <section class="blocks">
-          <div class="date">
+          <!-- <div class="date">
             <span>2019</span>
-          </div>
+          </div> -->
           <div class="decorator">
           </div>
           <div class="details">
             <header>
-              <h3>Airdrums</h3>
+              <h3>Airdrums <span class="newdate">2019</span></h3>
               <a href="https://github.com/kvptkr/Air-Drums--UoftHacks-2019" class="place placeurl">Computer Vision Based Drumkit</a>
             </header>
             <div>
               <ul>
-                <li>Designed a computer vision based drum kit constructed using <b>OpenCV, NumPy</b> and <b>Pandas</b></li>
+                <li>Designed a computer vision based drum kit constructed using <b>Python, OpenCV, NumPy</b> and <b>Pandas</b></li>
                 <li><em>Won Intel award</em> for best use of Intel processing power for matrix operations and multithreading</li>
               </ul>
             </div>
           </div>
-        </section>       
+        </section>
+        <section class="blocks">
+          <!-- <div class="date">
+            <span>2019</span>
+          </div> -->
+          <div class="decorator">
+          </div>
+          <div class="details">
+            <header>
+              <h3>Draino <span class="newdate">2019</span></h3>
+              <a href="https://github.com/kvptkr/draino" class="place placeurl">Open-Source Kubernetes Node Drainer</a>
+            </header>
+            <div>
+              <ul>
+                <li>Packaged and maintained open-source, community <b>Helm</b> chart for the project</li>
+              </ul>
+            </div>
+          </div>
+        </section>  
+
       </section>
       <section class="main-block concise">
         <h2>
           <i class="fa fa-graduation-cap"></i> Education
         </h2>
         <section class="blocks">
-          <div class="date">
+          <!-- <div class="date">
             <span>Present</span><span>2017</span>
-          </div>
+          </div> -->
           <div class="decorator">
           </div>
           <div class="details">
             <header>
-              <h3>BaSC in Management Sciences-Engineering</h3>
+              <h3>BaSC in Management Sciences-Engineering <span class="newdate">2017 - Present</span></h3>
               <span class="place">University of Waterloo</span>
               <span class="location">Waterloo, ON</span>              
             </header>
@@ -193,15 +219,12 @@
               </div>
           </div>
         </section>
-        <section class="blocks">
-          <div class="date">
-            <span>2017</span><span>2011</span>
-          </div>
+        <!-- <section class="blocks">
           <div class="decorator">
           </div>
           <div class="details">
             <header>
-              <h3>University of Toronto Schools</h3>
+              <h3>University of Toronto Schools <span class="newdate">2011-2017</span></h3>
               <span class="place">High School</span>
               <span class="location">Toronto, ON</span>              
             </header>
@@ -211,21 +234,11 @@
               </ul>
               </div>
           </div>
-        </section>
+        </section> -->
       </section>
     </section>
     <aside id="sidebar">
-      <div class="side-block" id="contact">
-        <h1>
-          Contact Info
-        </h1>
-        <ul>
-          <li><i class="fa fa-globe"></i><a href="https://kvptkr.github.io" class="placeurl"> kvptkr.github.io</a></li>
-          <li><i class="fa fa-github"></i><a href="https://github.com/kvptkr/" class="placeurl"> kvptkr</a></li>
-          <li><i class="fa fa-envelope"></i><a href="mailto:krpetkar@edu.uwaterloo.ca" class="placeurl"> krpetkar@edu.uwaterloo.ca</a></li>
-          <li><i class="fa fa-phone"></i> 647.781.1815</li>
-        </ul>
-      </div>
+      
       <div class="side-block" id="skills">
         <h1>
           Skills
@@ -248,11 +261,10 @@
         <ul>
 
           <li><h3>Database Technologies</h3></li>
-          <li>SQL Server</li>
-          <li>Postgres SQL</li>
+          <li>SQL Server, Postgres SQL</li>
         </ul>
         <ul>
-          <li><h3>Miscellanous</h3></li>
+          <li><h3>Miscellaneous</h3></li>
           <li>Git, Agile Methodologies</li>
           <li>Test-Driven Development</li>
         </ul>
@@ -270,7 +282,7 @@
       </div>
       <div class="side-block" id="co">
         <h1>
-          CO-CURRICULARS
+         Co-Curriculars 
         </h1>
         <ul>
           <li><h3>UW Ecocar</h3></li>
@@ -292,11 +304,13 @@
           Interests
         </h1>
         <ul>
+          <li>- Vim</li>
           <li>- Baseball</li>
           <li>- Calligraphy</li>
           <li>- Philosophy</li>
           <li>- Self-Improvement</li>
         </ul>        
+
       </div>
      
     </aside>
