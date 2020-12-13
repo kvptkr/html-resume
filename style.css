@@ -1,6 +1,4 @@
-@page{
-  size: letter portrait;
-  margin: 0;
+@page{ size: letter portrait; margin: 0;
 }
 
 *{
@@ -68,7 +66,7 @@ li{
   padding: 0 var(--sidebar-horizontal-padding);
   background-color: #f2f2f2;
   font-size: 8.5pt;
-  padding-top:85px;
+  padding-top:10px;
 }
 
 /* main */
@@ -86,7 +84,7 @@ li{
 
 #title h1{
   font-weight: 500;
-  font-size: 25pt;
+  font-size: 27pt;
   line-height: 1.5;
 }
 
@@ -267,7 +265,7 @@ li{
 }
 
 .details .location{
-  font-size: 9pt;
+  font-size: 9.5pt;
   font-weight: normal;
   float: right;
 }
@@ -331,12 +329,10 @@ li{
 }
 
 .side-block{
-  margin-top: 0.4in; 
+  margin-top: -0.05in; 
 }
 #contact{
-   
   position: relative;
-
 }
 #contact h1 {
   font-weight: 500;
@@ -352,18 +348,18 @@ li{
   
 }
 #contact li > a{
-  text-align:right;
-  float:right;
+  text-align:left;
+  float:left;
 }
 #contact li > span{
-  float:right;
+  float:left;
 }
 #contact li > i{
-  width: 9pt; /* for text alignment */
+  width: 13pt; /* for text alignment */
   position: relative;
   left:-4px;
   top:5px;
-  float:right;
+  float:left;
 }
 #contact li::before{
   position: relative;
@@ -372,6 +368,7 @@ li{
 }
 
 #skills{
+  padding-top: 20px;
   line-height: 1.5;
 }
 
@@ -423,6 +420,10 @@ li{
   font-weight: 400;
   font-style: normal;
 }
+
+.details h3{
+  font-size: 10pt;
+}
 .subdetail{
   color:#4747D3;  
   display: block;
@@ -434,8 +435,7 @@ li{
   color:#000;
 }
 .newdate{
-  font-size: 8pt;
-  font-weight: normal;
+  font-size: 9pt;
   text-align: right;
   line-height: 1;
   float:right;
